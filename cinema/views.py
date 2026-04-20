@@ -12,6 +12,7 @@ from cinema.serializers import (
     MovieSessionWriteSerializer,
 )
 
+
 class GenreViewSet(viewsets.ModelViewSet):
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
